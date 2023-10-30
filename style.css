@@ -65,7 +65,7 @@ nav a{
 
 .hero-left h2{
     color: #000;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Clash Grotesk', sans-serif;
     font-size: 64px;
     font-style: normal;
     font-weight: 600;
@@ -74,7 +74,7 @@ nav a{
 
  .left-active{
     color: #FFA800;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Clash Grotesk', sans-serif;
     font-size: 64px;
     font-style: normal;
     font-weight: 600;
@@ -152,6 +152,7 @@ width: 25%;
     background: #F5FAFF;
     /* padding: 64px 120px  !important; */
     padding: 16% 8%;
+    position: relative;
 }
 
 .container-left{
@@ -160,7 +161,7 @@ width: 25%;
 
 .container-left h2{
     color: #141414;
-    font-family: 'Roboto', sans-serif;
+    font-family:'Clash Grotesk', sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
@@ -188,8 +189,8 @@ width: 25%;
 }
 
 .container-right{
-    width: 45%;
-    position: relative;
+    width: 50%;
+    /* position: relative; */
 }
 
 .container-right img{
@@ -199,31 +200,29 @@ width: 25%;
 }
 
 .position{
-    display: flex;
+    display: inline-flex;
+    padding: 38px 36px 38px 30px;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
-    /* width: 192px; */
-    /* height: 200px; */
+
     border-radius: 16px;
     background: #FFF;
+
     /* Shadow 4 */
     box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.20);
-    /* padding: 38px 36px 38px 30px; */
-    padding: 9% 3%;
-    margin-bottom: 2%;
 }
 
 .left {
     position: absolute;
-    bottom: 10%;
-    left: -10%;
+    bottom: 30%;
+    left: 45%;
 }
 
 .bottom {
     position: absolute;
-    bottom: -20%;
-    right: -5%;
+    bottom: 13%;
+    right: 10%;
 }
 
 .card-info{
@@ -252,6 +251,10 @@ width: 25%;
     margin: 0 auto;
 }
 
+.position-card{
+    width: 20%;
+}
+
 .card-info{
     color: #000;
     font-family: 'Roboto', sans-serif;
@@ -267,6 +270,7 @@ width: 25%;
 
 .About-cover{
     margin: 2% 4%;
+    position: relative;
 }
 
 .About-inner{
@@ -274,7 +278,7 @@ width: 25%;
     /* justify-content: space-around; */
     gap: 40px;
     margin: 8% 0 8% 8%;
-   
+    
 }
 
  .About-right{
@@ -294,7 +298,7 @@ width: 25%;
 
 .About-left{
     width: 50%;
-    position: relative;
+    
 }
 
 .profile-position{
@@ -795,6 +799,42 @@ justify-content: center;
 align-items: center;
 }
 
+.left {
+    position: absolute;
+    bottom: 13%;
+    left: 2%;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 1%;
+    right: 10%;
+}
+
+.position-card {
+    width: 20%;
+}
+
+.card-info{
+    color: #000;
+font-family:'Clash Grotesk', sans-serif;
+font-size: 12.885px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 19.327px */
+letter-spacing: 0.268px;
+}
+
+.sub-info{
+    color: #141414;
+font-family: 'Clash Grotesk', sans-serif;
+font-size: 8.59px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 12.885px */
+letter-spacing: 0.268px;
+}
+
 .About-inner{
     display: flex;
     flex-direction: column;
@@ -806,7 +846,7 @@ align-items: center;
 
 .profile-position{
     display: flex;
-width: %;
+/* width: %; */
 /* height: 87.982px; */
 padding: 8.766px;
 align-items: center;
@@ -817,6 +857,31 @@ border-radius: 10.957px;
 background: #FFF;
 box-shadow: 0px 4.38285px 5.47856px 0px rgba(0, 0, 0, 0.20);
 }
+
+.position-card{
+    width: 30%;
+}
+
+.card-info{
+    color: #000;
+font-family: 'Clash Grotesk', sans-serif;
+font-size: 12.885px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 19.327px */
+letter-spacing: 0.268px;
+}
+
+.sub-info{
+    color: #141414;
+font-family: Proxima Nova;
+font-size: 8.59px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 12.885px */
+letter-spacing: 0.268px;
+}
+
 
 
 .profile-info h3{
